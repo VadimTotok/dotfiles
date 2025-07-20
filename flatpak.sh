@@ -17,3 +17,5 @@ flatpak install -y \
 	org.kde.krita \
 	org.kde.kdenlive \
 	org.gnome.Extensions \
+	com.teamspeak.TeamSpeak \
+	org.gnome.Totem \
