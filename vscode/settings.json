@@ -15,5 +15,6 @@
     "editor.cursorBlinking": "expand",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.colorTheme": "GitHub Dark Dimmed",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "/bin/python3"
 }
