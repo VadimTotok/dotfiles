@@ -19,3 +19,6 @@ flatpak install -y \
 	org.gnome.Extensions \
 	com.teamspeak.TeamSpeak \
 	org.gnome.Totem \
+	com.discordapp.Discord \
+	com.obsproject.Studio \
+	
