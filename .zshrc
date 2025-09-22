@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias ff="fastfetch -c '/home/totok/Документы/GitHub/dotfiles/config/fastfetch/fetch.jsonc'"
+alias sysup="sudo apt update && sudo apt upgrade -y"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
