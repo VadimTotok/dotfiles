@@ -17,11 +17,10 @@ source "$ZSH/oh-my-zsh.sh"
 # =========================
 # Aliases
 # =========================
-alias ff="fastfetch -c '/home/totok/Документы/dotfiles/config/fastfetch/fetch.json'c"
+alias ff="fastfetch -c '$HOME/Документы/GitHub/dotfiles/config/fastfetch/fetch.json'c"
 alias sysup="sudo apt update && sudo apt upgrade -y"
 
 # =========================
 # Powerlevel10k config
 # =========================
 [[ -f "$HOME/.p10k.zsh" ]] && source "$HOME/.p10k.zsh"
-
