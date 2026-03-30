@@ -3,8 +3,7 @@ set -e
 echo "Install flatpak..."
 
 echo "Updating system and installing Flatpak..."
-sudo apt update
-sudo apt install flatpak -y
+sudo dnf install flatpak -y
 
 echo "Adding Flathub repository..."
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
