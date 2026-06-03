@@ -19,6 +19,7 @@ APPS=(
   com.teamspeak.TeamSpeak
   com.discordapp.Discord
   com.obsproject.Studio
+  com.github.tchx84.Flatseal
 )
 
 echo "Install flatpak apps..."
