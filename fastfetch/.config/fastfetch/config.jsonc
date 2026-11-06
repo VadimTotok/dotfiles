@@ -1,0 +1,140 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "alt",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " : "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "separator",
+      "string": "╭────────────────────────────────────────╮"
+    },
+    {
+      "type": "os",
+      "key": "│   OS",
+      "keyColor": "38;2;195;221;225",
+      "format": "{3}"
+    },
+    {
+      "type": "kernel",
+      "key": "│   Kernel",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖  Packages",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "display",
+      "key": "│ 󰹑  Display",
+      "format": "{1}x{2}@{3}",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "terminal",
+      "key": "│   Terminal",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "shell",
+      "key": "│   Shell",
+      "keyColor": "38;2;195;221;225",
+      "format": "{1}"
+    },
+    {
+      "type": "wm",
+      "key": "│ 󱍜  WM",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "de",
+      "key": "│ 󰉼  DE",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "icons",
+      "key": "│   Icons",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+    "break",
+    {
+      "type": "title",
+      "format": " : \u001b[1m{user-name}@{host-name}\u001b[0m",
+      "keyColor": "38;2;195;221;225"
+    },
+    "break",
+    {
+      "type": "separator",
+      "string": "╭────────────────────────────────────────╮"
+    },
+    {
+      "type": "host",
+      "key": "│ 󰢮  Host",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "cpu",
+      "key": "│ 󰻠  CPU",
+      "keyColor": "38;2;195;221;225",
+      "format": "{1} ({3}/{4})"
+    },
+    {
+      "type": "gpu",
+      "key": "│ 󰢮  GPU",
+      "keyColor": "38;2;195;221;225",
+      "hideType": "integrated",
+      "format": "{name}"
+    },
+    {
+      "type": "command",
+      "key": "│ 󰢮  Mesa",
+      "keyColor": "38;2;195;221;225",
+      "text": "glxinfo 2>/dev/null | grep -oP 'Mesa \\K[\\d.]+' | head -1"
+    },
+    {
+      "type": "memory",
+      "key": "│ 󰍛  Memory",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "command",
+      "key": "│ 󰨣  Disks",
+      "keyColor": "38;2;195;221;225",
+      "text": "df -h / | tail -1 | awk '{print $3 \"/\" $2 \" (free: \" $4 \")\"}'"
+    },
+    {
+      "type": "command",
+      "key": "│ 󱦟  OS age",
+      "keyColor": "38;2;195;221;225",
+      "text": "birth=$(stat -c %W /); now=$(date +%s); echo $(( (now - birth) / 86400 )) days"
+    },
+    {
+      "type": "uptime",
+      "key": "│ 󱤦  Uptime",
+      "keyColor": "38;2;195;221;225",
+      "format": "{1}d {2}h {3}m {4}s"
+    },
+    {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 1,
+      "symbol": "circle"
+    }
+  ]
+}

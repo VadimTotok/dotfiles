@@ -1,0 +1,35 @@
+[window]
+padding = { x = 12, y = 12 }
+
+decorations = "Buttonless"
+
+opacity = 0.8
+
+[font]
+size = 13
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[font.normal]
+family = "FiraMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "FiraMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraMono Nerd Font"
+style = "Italic"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
+
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"

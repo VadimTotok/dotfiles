@@ -1,0 +1,13 @@
+^\.git$
+^\.gitignore$
+^\.gitmodules$
+^README.*
+^LICENSE.*
+^install\.sh$
+^flatpak\.sh$
+^\.stow-local-ignore$
+^\.stowrc$
+.*~
+^\.DS_Store$
+.*\.swp$
+.*\.tmp$
